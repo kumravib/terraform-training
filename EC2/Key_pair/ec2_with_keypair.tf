@@ -1,6 +1,6 @@
 resource "aws_key_pair" "deployer" {
   key_name   = "deployer-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCq2QN7CAMeX0AzN70fOo85JwnEdDeM76zGZjMVT4wSgHz81AuAkPS+GlMtsaPQTRXWpitsmvhNYLwkelzo2lboVcYRx/CEMyAHEEJWj8tUplVq8RiejCFF8OZKAEGNTOP1406CJzZROBuWTUe+6ahjWOYUgAWJxKd0vFt0Dr/cWokUQt+b/TYuJ6hLyk7+oMj216dC3i0B+pOyWFDAU4kHhaV0EW0vShT4ekvbHN2zEaXAJI/SlXtpqPQqROH+cEOIa6/+GQrLKkTWs40dS+xoy3pmJ/msy1o8injBthrHwSRCiDtXqltkLfruNLewzVKT3DW+I/CKk4KZjQ2GtCOx venug@Venu"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCynsmYxHqorawSrqrmu+ZhoTSq676K3U6GRxufHfDtoaysaGl4TFV427h4hxSyIwWtrZU6qMegW+qF/ecTmZJSPigfkE7ghr9fE+sQtSz65ZHUOxmbZCdw9b46afZgu8C9jbuiT8FF9Q/0ZdPDvM/8Zp42Wwbybe4tXvEq6xtfP4/XsoTQ4IsW0TyLq8/3CwCoq7TPFytcyoar2Ve7f5JWkPVM6fKWiRvZQuvrVJBFb6sHDi6OWOULTlzU4jmEptT4wi73PbCHjEyRpL0xLAqEymRUjSE8q2xPQQgy8U2qNEwapgnZULjVgr4rFKzeML8lXeDDdwe2WWnUsHtrADPH"
 }
 
 resource "aws_instance" "web1" {
